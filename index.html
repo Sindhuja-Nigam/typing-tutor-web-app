@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Tutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="text-align: center; color: #0077cc; margin-top: 30px; font-size: 2.5rem;">Typing Tutor</h1>
+  <div class="wrapper">
+    <p style="margin-bottom: 10px; font-weight: bold; color: #555;">Practice by clicking here:</p>
+    <input type="text" class="input-field">
+    <div class="content-box">
+      <div class="typing-text">
+        <p></p>
+      </div>
+      <div class="content">
+        <ul class="result-details">
+          <li class="time">
+            <p>Time left:</p>
+            <span><b>60</b>s</span>
+          </li>
+          <li class="mistake">
+            <p>Mistake:</p>
+            <span><b>0</b></span>
+          </li>
+          <li class="wpm">
+            <p>WPM:</p>
+            <span><b>0</b></span>
+          </li>
+          <li class="cpm">
+            <p>CPM:</p>
+            <span><b>0</b></span>
+          </li>
+        </ul>
+        <button onclick="location.reload()">Try again</button>
+      </div>
+    </div>
+    <p style="margin-top: 20px; text-align: center; color: #333; font-weight: 600;">Practice well and good luck!</p>
+  </div>
+  <script src="para.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
